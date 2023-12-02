@@ -1,0 +1,34 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Основной фон -->
+    <item android:drawable="@android:color/transparent" />
+
+    <!-- Контур гриба -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FF0000" />
+            <stroke
+                android:color="#000000"
+                android:width="2dp" />
+        </shape>
+    </item>
+
+    <!-- Шляпка -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FF0000" />
+            <corners android:topLeftRadius="25dp"
+                android:topRightRadius="25dp" />
+        </shape>
+    </item>
+
+    <!-- Ножка -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#FF0000" />
+            <corners android:topLeftRadius="25dp"
+                android:topRightRadius="25dp" />
+            <size android:width="15dp"
+                android:height="35dp" />
+        </shape>
+    </item>
+</layer-list>
